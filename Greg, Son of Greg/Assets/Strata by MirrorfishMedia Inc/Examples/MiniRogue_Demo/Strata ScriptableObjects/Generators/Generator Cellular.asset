@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overwriteFilledSpaces: 1
   generatesEmptySpace: 1
-  charForFill: 100
+  charForFill: 87
   emptySpaceChar: 48
   useRandomSeed: 1
   randomFillPercent: 50

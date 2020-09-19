@@ -164,3 +164,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 15
   currentHP: 0
+  maxJumpHeight: 4
+  minJumpHeight: 1
+  timeToJumpApex: 0.6
+  animator: {fileID: 8513290727859932769}
+  player: {fileID: 0}

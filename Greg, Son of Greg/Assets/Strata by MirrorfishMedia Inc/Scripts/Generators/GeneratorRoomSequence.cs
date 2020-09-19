@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 
 namespace Strata
 {
@@ -105,6 +107,7 @@ namespace Strata
                     generationSucceeded = true;
                     if (destroyRoomChainHolderOnCompletion)
                     {
+                        #if UNITY_EDITOR
                         if (EditorApplication.isPlaying)
                         {
                             Destroy(roomChainComponent.gameObject);
@@ -113,7 +116,7 @@ namespace Strata
                         {
                             DestroyImmediate(roomChainComponent.gameObject);
                         }
-                        
+                        #endif
                     }
                     break;
                 }

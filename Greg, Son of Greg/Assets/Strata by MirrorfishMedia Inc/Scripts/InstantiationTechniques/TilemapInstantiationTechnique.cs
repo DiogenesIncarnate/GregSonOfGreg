@@ -11,7 +11,7 @@ namespace Strata
     {
         public override void SpawnBoardSquare(BoardGenerator boardGenerator, Vector2 location, BoardLibraryEntry inputEntry)
         {
-            if(inputEntry.characterId.Equals('Z'))
+            if(inputEntry.characterId.Equals('S'))
             {
                 Transform playerTransform = GameObject.FindObjectOfType<Player>().transform;
                 playerTransform.position = new Vector3(location.x, location.y + 1, -1);

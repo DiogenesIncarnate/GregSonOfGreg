@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 [RequireComponent (typeof (Player))]
 public class PlayerInput : MonoBehaviour {
@@ -24,5 +25,10 @@ public class PlayerInput : MonoBehaviour {
         {
             player.OnAttackInput();
         }
-	}
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+    }
 }

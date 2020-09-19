@@ -16,7 +16,7 @@ MonoBehaviour:
   boardHorizontalSize: 100
   boardVerticalSize: 100
   unityTileSizeInWorldspace: 1
-  boardLibrary: {fileID: 11400000, guid: 5caeaf98dd531c84c81b73176efa50b5, type: 2}
+  boardLibrary: {fileID: 11400000, guid: d4a4dc5fe41770244953c476fbda2191, type: 2}
   generators:
   - {fileID: 11400000, guid: 360e8673819448b48856af4a7adc8b87, type: 2}
   - {fileID: 11400000, guid: c48a8353a1c714e4ebd1eb7b753fb0de, type: 2}

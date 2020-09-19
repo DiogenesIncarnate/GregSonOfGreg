@@ -49,6 +49,8 @@ public class DynamicObject : MonoBehaviour
         {
             velocity.y = 0;
         }
+
+        HandleAnimation();
     }
     protected virtual void CalculateVelocity()
     {
@@ -66,7 +68,12 @@ public class DynamicObject : MonoBehaviour
 
         directionalInput = input;
 
-        animator.SetFloat("DirectionalInputX", Mathf.Abs(directionalInput.x));
+        if (controller.collisions.below)
+        {
+            animator.SetFloat("DirectionalInputX", Mathf.Abs(directionalInput.x));
+        }
+        else
+            animator.SetFloat("DirectionalInputX", 0);
     }
 
     protected virtual void FlipSprite()
@@ -74,5 +81,10 @@ public class DynamicObject : MonoBehaviour
         Vector3 tempScale = transform.localScale;
         tempScale.x *= -1;
         transform.localScale = tempScale;
+    }
+
+    protected void HandleAnimation()
+    {
+        animator.SetFloat("VelocityY", velocity.y);
     }
 }

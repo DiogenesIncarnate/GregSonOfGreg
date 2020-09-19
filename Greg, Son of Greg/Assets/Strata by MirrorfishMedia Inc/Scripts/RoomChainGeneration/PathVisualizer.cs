@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif 
 
 namespace Strata
 {
@@ -21,7 +23,9 @@ namespace Strata
             if (visualizePath)
             {
                 DrawArrow.ForGizmo(nodePosition, nodeDirection, Color.yellow, 2.5f, 20);
+                #if UNITY_EDITOR
                 Handles.Label((nodePosition + nodeTextOffset), debugString);
+                #endif
             }
         }
 

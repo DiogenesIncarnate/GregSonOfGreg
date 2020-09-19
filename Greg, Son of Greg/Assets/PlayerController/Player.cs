@@ -106,6 +106,7 @@ public class Player : DynamicObject {
 		}
 
 	}
+
     private void OnDrawGizmosSelected()
     {
         if (attackPoint == null)

@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using System;
 
 namespace Strata
@@ -72,6 +74,8 @@ namespace Strata
             for (int i = 0; i < generatedObjectsToClear.Count; i++)
             {
                 GameObject toDestroy = generatedObjectsToClear[i];
+
+                #if UNITY_EDITOR
                 if (EditorApplication.isPlaying)
                 {
                     Destroy(toDestroy);
@@ -80,7 +84,8 @@ namespace Strata
                 {
                     DestroyImmediate(toDestroy);
                 }
-                
+                #endif
+
             }
 
             generatedObjectsToClear.Clear();

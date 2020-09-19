@@ -4,16 +4,32 @@ using UnityEngine;
 
 public class Enemy : DynamicObject
 {
+    public Player player;
+
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
+
+        player = GameObject.FindObjectOfType<Player>();
     }
 
     // Update is called once per frame
     protected override void Update()
     {
         base.Update();
+        FacePlayer();
+    }
+
+    public void FacePlayer()
+    {
+        Vector2 distFromPlayer = player.transform.position - transform.position;
+        if(Mathf.Abs(distFromPlayer.y) < 1.0f && Mathf.Abs(distFromPlayer.x) < 10.0f)
+        {
+            Vector3 tempScale = transform.localScale;
+            tempScale.x = Mathf.Abs(tempScale.x) * Mathf.Sign(distFromPlayer.x);
+            transform.localScale = tempScale;
+        }
     }
 
     public void Hit(GameObject source)
