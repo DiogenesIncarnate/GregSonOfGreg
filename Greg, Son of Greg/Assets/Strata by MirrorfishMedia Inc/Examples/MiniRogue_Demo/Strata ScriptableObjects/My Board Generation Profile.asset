@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fb54412e0f82da4caf22151b67a0b98, type: 3}
+  m_Name: My Board Generation Profile
+  m_EditorClassIdentifier: 
+  seedValue: '@mattmirrorfish'
+  boardHorizontalSize: 100
+  boardVerticalSize: 100
+  unityTileSizeInWorldspace: 1
+  boardLibrary: {fileID: 11400000, guid: d4a4dc5fe41770244953c476fbda2191, type: 2}
+  generators:
+  - {fileID: 11400000, guid: 360e8673819448b48856af4a7adc8b87, type: 2}
+  - {fileID: 11400000, guid: 37af4a73473073f47b079d9e49378256, type: 2}
+  - {fileID: 11400000, guid: c48a8353a1c714e4ebd1eb7b753fb0de, type: 2}
+  - {fileID: 11400000, guid: 1635ca7d253ed0044be9f05f46ccc270, type: 2}

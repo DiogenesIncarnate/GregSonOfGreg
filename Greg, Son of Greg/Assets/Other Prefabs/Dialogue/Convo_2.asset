@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37d52590d9da8804588b202196521788, type: 3}
+  m_Name: Convo_2
+  m_EditorClassIdentifier: 
+  threatLevel: 10
+  complete: 0
+  allLines:
+  - speaker: {fileID: 11400000, guid: 9dc8c3f7ba3ad374e8df22e86a4e1e33, type: 2}
+    dialogueType: 1
+    dialogueOptions:
+    - Tell me... what is your name. And what do you seek here?
+    threatLevels: 
+  - speaker: {fileID: 11400000, guid: 062d7247a2a9f164d8106d3b522f58dd, type: 2}
+    dialogueType: 0
+    dialogueOptions:
+    - I am Greg, Son of Greg. I come to seek only to better myself however I can.
+    - I do not exchange pleasantries with strangers.
+    - Greg. Yours?
+    threatLevels: 020000000000000001000000
+  - speaker: {fileID: 11400000, guid: 9dc8c3f7ba3ad374e8df22e86a4e1e33, type: 2}
+    dialogueType: 1
+    dialogueOptions:
+    - Well, I would be more than happy to offer some assistance on your travels.
+    - I don't like your tone, stranger. Momma never level your speechcraft or something?
+    - Well, good luck to you.
+    threatLevels: 020000000000000001000000
+  - speaker: {fileID: 11400000, guid: 062d7247a2a9f164d8106d3b522f58dd, type: 2}
+    dialogueType: 0
+    dialogueOptions:
+    - I would be so very grateful for your help.
+    - Your words are less than dust in the wind. Don't challenge me.
+    - I'll be going now.
+    threatLevels: 020000000000000001000000
+  - speaker: {fileID: 11400000, guid: 9dc8c3f7ba3ad374e8df22e86a4e1e33, type: 2}
+    dialogueType: 1
+    dialogueOptions:
+    - Take these. It has been a pleasure.
+    - If you dare...
+    - So long, strange one.
+    threatLevels: 020000000000000001000000

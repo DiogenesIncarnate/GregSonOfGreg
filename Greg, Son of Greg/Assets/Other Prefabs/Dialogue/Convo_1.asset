@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37d52590d9da8804588b202196521788, type: 3}
+  m_Name: Convo_1
+  m_EditorClassIdentifier: 
+  threatLevel: 10
+  complete: 0
+  allLines:
+  - speaker: {fileID: 11400000, guid: 9dc8c3f7ba3ad374e8df22e86a4e1e33, type: 2}
+    dialogueType: 1
+    dialogueOptions:
+    - Greetings, adventurer...
+    threatLevels: 
+  - speaker: {fileID: 11400000, guid: 062d7247a2a9f164d8106d3b522f58dd, type: 2}
+    dialogueType: 0
+    dialogueOptions:
+    - Hello! How convenient to meet a friendly soul.
+    - I desire only victory. Die, scum!
+    - I wish to be on my way.
+    threatLevels: 000000000100000002000000
+  - speaker: {fileID: 11400000, guid: 9dc8c3f7ba3ad374e8df22e86a4e1e33, type: 2}
+    dialogueType: 1
+    dialogueOptions:
+    - You are quite the strange traveler...
+    threatLevels: 

@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4556ca038e5f8b44a986ddd9d1a570a2, type: 3}
   m_Name: Connector Tunneler
   m_EditorClassIdentifier: 
-  overwriteFilledSpaces: 0
+  overwriteFilledSpaces: 1
   generatesEmptySpace: 1
   numTunnels: 5
-  maxLengthPerTunnel: 75
+  maxLengthPerTunnel: 50
   tunnelWidth: 2
   spawnRoomsAtTunnelEnds: 1
   tunnelEndTemplates:

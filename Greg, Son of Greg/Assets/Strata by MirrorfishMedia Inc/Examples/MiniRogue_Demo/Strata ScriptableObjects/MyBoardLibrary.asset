@@ -45,9 +45,9 @@ MonoBehaviour:
     chanceBoardLibraryEntry:
       chanceChars: []
       outputCharArray: 
-  - characterId: 69
+  - characterId: 78
     useAsDefaultEmptySpace: 0
-    prefabToSpawn: {fileID: 8513290727859932770, guid: a6ad416d370fa7a48993d1ad2b5fb89e,
+    prefabToSpawn: {fileID: 975749461411778696, guid: a020d4dd2fd9e0945893d0665f98b6d1,
       type: 3}
     tile: {fileID: 11400000, guid: 57cffed27629cc6439114e55ead815bb, type: 2}
     chanceBoardLibraryEntry:
@@ -57,14 +57,14 @@ MonoBehaviour:
     useAsDefaultEmptySpace: 0
     prefabToSpawn: {fileID: 4572238715456467770, guid: 98b4d7d7e3737884b883775e827c54d4,
       type: 3}
-    tile: {fileID: 11400000, guid: dd7de64f331deb747883435f620b53a8, type: 2}
+    tile: {fileID: 11400000, guid: 16100a4b4ebd04c4c8c9ac7f806c3445, type: 2}
     chanceBoardLibraryEntry:
       chanceChars: []
       outputCharArray: 
-  - characterId: 49
+  - characterId: 84
     useAsDefaultEmptySpace: 1
     prefabToSpawn: {fileID: 0}
-    tile: {fileID: 11400000, guid: c2af75eb842c67c43a59fee7895e2b6e, type: 2}
+    tile: {fileID: 11400000, guid: 155164c17db560540bcbd9556dd2f868, type: 2}
     chanceBoardLibraryEntry:
       chanceChars: []
       outputCharArray: 

@@ -17,4 +17,4 @@ MonoBehaviour:
   charForFill: 87
   emptySpaceChar: 48
   useRandomSeed: 1
-  randomFillPercent: 50
+  randomFillPercent: 54

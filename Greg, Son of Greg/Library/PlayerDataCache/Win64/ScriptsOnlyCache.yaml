@@ -60,31 +60,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9472}
     - Class: 114
-      Script: {instanceID: 9644}
+      Script: {instanceID: 9646}
     - Class: 114
-      Script: {instanceID: 9770}
+      Script: {instanceID: 9772}
     - Class: 114
-      Script: {instanceID: 9792}
+      Script: {instanceID: 9794}
     - Class: 114
-      Script: {instanceID: 9796}
+      Script: {instanceID: 9798}
     - Class: 114
-      Script: {instanceID: 9854}
+      Script: {instanceID: 9856}
     - Class: 114
-      Script: {instanceID: 9956}
+      Script: {instanceID: 9958}
     - Class: 114
-      Script: {instanceID: 9974}
+      Script: {instanceID: 9976}
     - Class: 114
-      Script: {instanceID: 10120}
+      Script: {instanceID: 10122}
     - Class: 114
-      Script: {instanceID: 10136}
+      Script: {instanceID: 10138}
     - Class: 114
-      Script: {instanceID: 10266}
+      Script: {instanceID: 10268}
     - Class: 114
-      Script: {instanceID: 10400}
+      Script: {instanceID: 10402}
     - Class: 114
-      Script: {instanceID: 10486}
+      Script: {instanceID: 10488}
     - Class: 114
-      Script: {instanceID: 14042}
+      Script: {instanceID: 13872}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -146,7 +146,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: f251e2e71d64ceda2f3ea035a8e3ec9d
+      Hash: a15be9c0d061a1d8bbb0eb248edcf45b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DynamicObject
@@ -818,7 +818,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 35beb1d4824162b8d80bbfb76d14eec3
+      Hash: f9f7332f2a12d558017c14cf7a5e0230
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Enemy
@@ -950,7 +950,7 @@ ScriptsOnlyBuild:
     className: RaycastController
   - hash:
       serializedVersion: 2
-      Hash: 0c77267daebcf6560ed537f103a23ae2
+      Hash: 299693d37eef0bb910ccae0069e1b77b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -1026,12 +1026,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SceneController
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
