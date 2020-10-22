@@ -6,10 +6,12 @@ public class NPC_Chunk : MonoBehaviour
 {
     public List<NPC> NPCs;
     public Transform origin;
-    public List<Conversation> possibleConvos;
+    
 
     [HideInInspector]
     public bool dialogueCompleted = false;
+    [HideInInspector]
+    public DialogueManager dialogueManager;
 
     // Start is called before the first frame update
     void Start()
@@ -17,18 +19,18 @@ public class NPC_Chunk : MonoBehaviour
         origin = gameObject.transform;
         NPCs.Clear();
         NPCs.AddRange(gameObject.GetComponentsInChildren<NPC>());
-        possibleConvos = CopyList(possibleConvos);
+        dialogueManager = FindObjectOfType<DialogueManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!dialogueCompleted && InDialogueRange())
+        if (!dialogueCompleted && InDialogueRange() && dialogueManager.possibleConvos.Count >= 1)
         {
-            dialogueCompleted = true;
             DialogueManager.ToggleCharacters(false);
-            DialogueManager.StartConversation(possibleConvos[Random.Range(0, possibleConvos.Count - 1)]);
+            DialogueManager.StartConversation(dialogueManager.possibleConvos[Random.Range(0, dialogueManager.possibleConvos.Count - 1)]);
             DialogueManager.SetInvolvedNPCs(NPCs);
+            dialogueCompleted = true;
         }
     }
 
@@ -38,17 +40,5 @@ public class NPC_Chunk : MonoBehaviour
         Vector2 dist = transform.position - player.transform.position;
 
         return (Mathf.Abs(dist.x) < 5.0f && Mathf.Abs(dist.y) < 1.0f);
-    }
-
-    private List<Conversation> CopyList(List<Conversation> list)
-    {
-        List<Conversation> copy = new List<Conversation>();
-        foreach(Conversation c in list)
-        {
-            Conversation newC = c.Copy();
-            copy.Add(newC);
-        }
-
-        return copy;
     }
 }

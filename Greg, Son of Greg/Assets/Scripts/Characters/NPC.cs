@@ -18,11 +18,14 @@ public class NPC : DynamicCharacter
     public float awarenessRadius = 10.0f;
     public Inclination inclination = Inclination.Neutral;
     public GameObject parentChunk;
+    public Transform origin;
 
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
+
+        origin = gameObject.transform;
 
         if(parentChunk == null)
         {
@@ -37,7 +40,7 @@ public class NPC : DynamicCharacter
     {
         base.Update();
 
-        if(inclination == Inclination.Hostile)
+        if(inclination == Inclination.Hostile && !isDead)
         {
             ActHostile();
         }
@@ -164,9 +167,10 @@ public class NPC : DynamicCharacter
 
     public void StopFollowHostile()
     {
-        if (parentChunk.GetComponent<NPC_Chunk>())
+        if (parentChunk.GetComponent<NPC_Chunk>() && !isDead)
         {
-            gameObject.GetComponent<AIDestinationSetter>().target = parentChunk.GetComponent<NPC_Chunk>().origin;
+            //parentChunk.GetComponent<NPC_Chunk>().origin;
+            gameObject.GetComponent<AIDestinationSetter>().target = origin;
         }
         else
         {

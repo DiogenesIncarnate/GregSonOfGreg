@@ -7,6 +7,7 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
+    public List<Conversation> possibleConvos;
     public TextMeshProUGUI speakerName, dialogue, navButtonText;
     public GameObject options;
     public GameObject buttonPrefab;
@@ -25,6 +26,7 @@ public class DialogueManager : MonoBehaviour
         {
             instance = this;
             anim = GetComponent<Animator>();
+            possibleConvos = CopyList(possibleConvos);
         }
         else
         {
@@ -98,7 +100,7 @@ public class DialogueManager : MonoBehaviour
 
     private string FindAppropriateResponse(DialogueLine line)
     {
-        if (currentConvo.threatLevel <= 0)
+        if (currentConvo.threatLevel <= 5)
         {
             if (line.dialogueOptions.Length >= 1)
             return line.dialogueOptions[0];
@@ -119,6 +121,9 @@ public class DialogueManager : MonoBehaviour
 
     private void OnEnd(Conversation convo)
     {
+        convo.complete = true;
+        possibleConvos.Remove(convo);
+
         ToggleCharacters(true);
 
         Debug.Log(currentConvo.threatLevel);
@@ -202,7 +207,7 @@ public class DialogueManager : MonoBehaviour
                 index++;
                 yield return new WaitForSeconds(0.02f);
 
-                if (index == text.Length - 1)
+                if (index == text.Length)
                 {
                     complete = true;
                 }
@@ -210,5 +215,17 @@ public class DialogueManager : MonoBehaviour
         }
 
         typing = null;
+    }
+
+    private List<Conversation> CopyList(List<Conversation> list)
+    {
+        List<Conversation> copy = new List<Conversation>();
+        foreach (Conversation c in list)
+        {
+            Conversation newC = c.Copy();
+            copy.Add(newC);
+        }
+
+        return copy;
     }
 }

@@ -172,7 +172,6 @@ public class DynamicCharacter : MonoBehaviour
             isDead = true;
             animator.SetBool("IsDead", isDead);
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
-            this.enabled = false;
         }
 
         UpdateUI();
