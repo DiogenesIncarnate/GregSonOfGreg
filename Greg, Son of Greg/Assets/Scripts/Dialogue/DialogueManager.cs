@@ -19,6 +19,7 @@ public class DialogueManager : MonoBehaviour
     private static DialogueManager instance;
     private Animator anim;
     private Coroutine typing;
+    private Player player;
 
     private void Awake()
     {
@@ -27,6 +28,7 @@ public class DialogueManager : MonoBehaviour
             instance = this;
             anim = GetComponent<Animator>();
             possibleConvos = CopyList(possibleConvos);
+            player = FindObjectOfType<Player>();
         }
         else
         {
@@ -34,15 +36,15 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void UpdateThreatLevel(Conversation convo, ThreatLevel tone)
+    public void UpdateThreatLevel(ThreatLevel tone)
     {
         if(tone == ThreatLevel.Aggressive)
         {
-            convo.threatLevel += 10;
+            currentConvo.threatLevel += (5 * (20 / (int)player.charm));
         }
         else if(tone == ThreatLevel.Charming)
         {
-            convo.threatLevel -= 5;
+            currentConvo.threatLevel -= 5 * ((int)player.charm / 10);
         }
     }
 
@@ -100,20 +102,19 @@ public class DialogueManager : MonoBehaviour
 
     private string FindAppropriateResponse(DialogueLine line)
     {
-        if (currentConvo.threatLevel <= 5)
-        {
-            if (line.dialogueOptions.Length >= 1)
-            return line.dialogueOptions[0];
-        }
-        else if (currentConvo.threatLevel >= 10)
-        {
-            if(line.dialogueOptions.Length >= 2)
-            return line.dialogueOptions[1];
-        }
+        Debug.Log(currentConvo.threatLevel);
 
-        if (line.dialogueOptions.Length >= 3)
+        if (currentConvo.threatLevel < 10)
         {
-            return line.dialogueOptions[2];
+            if (line.dialogueOptions.Length >= 1) return line.dialogueOptions[0];
+        }
+        else if (currentConvo.threatLevel >= 15)
+        {
+            if(line.dialogueOptions.Length >= 2) return line.dialogueOptions[1];
+        }
+        else
+        {
+            if (line.dialogueOptions.Length >= 3) return line.dialogueOptions[2];
         }
 
         return line.dialogueOptions[0];
@@ -126,21 +127,23 @@ public class DialogueManager : MonoBehaviour
 
         ToggleCharacters(true);
 
-        Debug.Log(currentConvo.threatLevel);
+        //Debug.Log(currentConvo.threatLevel);
 
         foreach(NPC npc in instance.currentInvolvedNPCs)
         {
-            if(currentConvo.threatLevel >= 20)
+            if(currentConvo.threatLevel >= 15)
             {
-                npc.inclination = Inclination.Hostile;
+                npc.SetInclination(Inclination.Hostile);
+                player.charm -= 0.2f;
             }
             else if(currentConvo.threatLevel >= 10)
             {
-                npc.inclination = Inclination.Neutral;
+                npc.SetInclination(Inclination.Neutral);
             }
             else
             {
-                npc.inclination = Inclination.Friendly;
+                npc.SetInclination(Inclination.Friendly);
+                player.charm += 0.2f;
             }
         }
 
@@ -171,31 +174,21 @@ public class DialogueManager : MonoBehaviour
             Destroy(opt.gameObject);
         }
 
-        if (currentConvo.GetLineByIndex(currentIndex).dialogueType == LineType.Choose)
+        DialogueLine currentLine = currentConvo.GetLineByIndex(currentIndex);
+        if (currentLine.dialogueType == LineType.Choose)
         {
-            string[] dOptions = currentConvo.GetLineByIndex(currentIndex).dialogueOptions;
+            string[] dOptions = currentLine.dialogueOptions;
             float yPos = 50;
             for (int i = 0; i < dOptions.Length; i++)
             {
+                ThreatLevel thl = currentLine.threatLevels[i];
                 GameObject b = Instantiate(buttonPrefab);
                 b.GetComponentInChildren<TextMeshProUGUI>().text = dOptions[i];
                 b.transform.SetParent(options.transform);
-                b.transform.localPosition = new Vector2(250, yPos);
+                b.transform.localPosition = new Vector2(750, yPos);
+                b.GetComponent<Button>().onClick.AddListener(delegate { UpdateThreatLevel(thl); });
                 b.GetComponent<Button>().onClick.AddListener(ReadNext);
-                if(i == 0)
-                {
-                    b.GetComponent<Button>().onClick.AddListener(delegate { UpdateThreatLevel(currentConvo, ThreatLevel.Charming); });
-                }
-                else if(i == 1)
-                {
-                    b.GetComponent<Button>().onClick.AddListener(delegate { UpdateThreatLevel(currentConvo, ThreatLevel.Aggressive); });
-                }
-                else
-                {
-                    b.GetComponent<Button>().onClick.AddListener(delegate { UpdateThreatLevel(currentConvo, ThreatLevel.Neutral); });
-                }
 
-                DialogueLine currentLine = currentConvo.GetLineByIndex(currentIndex);
                 yPos -= 50;
             }
         }

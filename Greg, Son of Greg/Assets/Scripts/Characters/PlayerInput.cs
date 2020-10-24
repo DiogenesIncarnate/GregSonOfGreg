@@ -29,7 +29,7 @@ public class PlayerInput : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("ProceduralLevel");
         }
     }
 }

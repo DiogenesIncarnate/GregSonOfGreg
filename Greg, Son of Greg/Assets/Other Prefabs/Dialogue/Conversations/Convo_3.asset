@@ -26,7 +26,7 @@ MonoBehaviour:
     - Why, of course. Any place to acquire goods nearby?
     - I can find my own way, fool.
     - No, thank you.
-    threatLevels: 000000000100000002000000
+    threatLevels: 020000000000000001000000
   - speaker: {fileID: 11400000, guid: 9dc8c3f7ba3ad374e8df22e86a4e1e33, type: 2}
     dialogueType: 1
     dialogueOptions:

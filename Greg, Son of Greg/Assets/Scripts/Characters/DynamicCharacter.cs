@@ -10,9 +10,9 @@ public class DynamicCharacter : MonoBehaviour
     // Object stats
     [Header("Character Settings")]
     public float maxHP;
-    public int might = 10;
-    public int charm = 10;
-    public int wit = 10;
+    public float might = 10;
+    public float charm = 10;
+    public float wit = 10;
 
     [HideInInspector]
     public float currentHP;
@@ -62,15 +62,15 @@ public class DynamicCharacter : MonoBehaviour
     protected virtual void Update()
     {
 
-            if (climbTimer >= timeToClimb)
-            {
-                controller.FinishLedgeClimb();
-                climbTimer = 0;
-            }
-            else
-            {
-                climbTimer += Time.deltaTime;
-            }
+        if (climbTimer >= timeToClimb)
+        {
+            controller.FinishLedgeClimb();
+            climbTimer = 0;
+        }
+        else
+        {
+            climbTimer += Time.deltaTime;
+        }
 
         CalculateVelocity();
 
@@ -139,7 +139,7 @@ public class DynamicCharacter : MonoBehaviour
 
         foreach (Collider2D obj in hitObjects)
         {
-            Debug.Log("We hit " + obj.name);
+            //Debug.Log("We hit " + obj.name);
 
             DynamicCharacter source = obj.gameObject.GetComponent<DynamicCharacter>();
 
@@ -162,6 +162,11 @@ public class DynamicCharacter : MonoBehaviour
         Damage(damage);
         velocity += new Vector3(hitDir.x, hitDir.y, 0);
         animator.SetTrigger("Hit");
+
+        if(gameObject.GetComponent<Player>())
+        {
+            might += 0.05f;
+        }
     }
 
     void Damage(float dmg)
@@ -184,16 +189,20 @@ public class DynamicCharacter : MonoBehaviour
 
     protected virtual void SetPhysicsFromAbilities()
     {
-        maxJumpHeight = 0.25f * might;
+        float _might = (int)might;
+        float _charm = (int)charm;
+        float _wit = (int)wit;
+
+        maxJumpHeight = 0.25f * _might;
         minJumpHeight = 1;
         timeToJumpApex = .5f;
 
         accelerationTimeAirborne = .2f;
-        accelerationTimeGrounded = 1f / might;
-        moveSpeed = 0.2f * wit;
+        accelerationTimeGrounded = 1f / _might;
+        moveSpeed = 0.2f * _wit;
 
-        attackRate = 0.2f * charm;
-        attackRange = 0.05f * wit;
+        attackRate = 0.2f * _charm;
+        attackRange = 0.05f * _wit;
     }
 
     protected void UpdateUI()

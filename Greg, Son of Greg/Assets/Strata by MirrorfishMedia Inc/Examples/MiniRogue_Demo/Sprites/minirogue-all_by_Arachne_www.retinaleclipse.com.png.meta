@@ -1,218 +1,633 @@
 fileFormatVersion: 2
 guid: 51b94d989d5506840a713c0e72641b41
-timeCreated: 1505059214
-licenseType: Pro
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: minirogue-all_0
-    21300002: minirogue-all_1
-    21300004: minirogue-all_2
-    21300006: minirogue-all_3
-    21300008: minirogue-all_4
-    21300010: minirogue-all_5
-    21300012: minirogue-all_6
-    21300014: minirogue-all_7
-    21300016: minirogue-all_8
-    21300018: minirogue-all_9
-    21300020: minirogue-all_10
-    21300022: minirogue-all_11
-    21300024: minirogue-all_12
-    21300026: minirogue-all_13
-    21300028: minirogue-all_14
-    21300030: minirogue-all_15
-    21300032: minirogue-all_16
-    21300034: minirogue-all_17
-    21300036: minirogue-all_18
-    21300038: minirogue-all_19
-    21300040: minirogue-all_20
-    21300042: minirogue-all_21
-    21300044: minirogue-all_22
-    21300046: minirogue-all_23
-    21300048: minirogue-all_24
-    21300050: minirogue-all_25
-    21300052: minirogue-all_26
-    21300054: minirogue-all_27
-    21300056: minirogue-all_28
-    21300058: minirogue-all_29
-    21300060: minirogue-all_30
-    21300062: minirogue-all_31
-    21300064: minirogue-all_32
-    21300066: minirogue-all_33
-    21300068: minirogue-all_34
-    21300070: minirogue-all_35
-    21300072: minirogue-all_36
-    21300074: minirogue-all_37
-    21300076: minirogue-all_38
-    21300078: minirogue-all_39
-    21300080: minirogue-all_40
-    21300082: minirogue-all_41
-    21300084: minirogue-all_42
-    21300086: minirogue-all_43
-    21300088: minirogue-all_44
-    21300090: minirogue-all_45
-    21300092: minirogue-all_46
-    21300094: minirogue-all_47
-    21300096: minirogue-all_48
-    21300098: minirogue-all_49
-    21300100: minirogue-all_50
-    21300102: minirogue-all_51
-    21300104: minirogue-all_52
-    21300106: minirogue-all_53
-    21300108: minirogue-all_54
-    21300110: minirogue-all_55
-    21300112: minirogue-all_56
-    21300114: minirogue-all_57
-    21300116: minirogue-all_58
-    21300118: minirogue-all_59
-    21300120: minirogue-all_60
-    21300122: minirogue-all_61
-    21300124: minirogue-all_62
-    21300126: minirogue-all_63
-    21300128: minirogue-all_64
-    21300130: minirogue-all_65
-    21300132: minirogue-all_66
-    21300134: minirogue-all_67
-    21300136: minirogue-all_68
-    21300138: minirogue-all_69
-    21300140: minirogue-all_70
-    21300142: minirogue-all_71
-    21300144: minirogue-all_72
-    21300146: minirogue-all_73
-    21300148: minirogue-all_74
-    21300150: minirogue-all_75
-    21300152: minirogue-all_76
-    21300154: minirogue-all_77
-    21300156: minirogue-all_78
-    21300158: minirogue-all_79
-    21300160: minirogue-all_80
-    21300162: minirogue-all_81
-    21300164: minirogue-all_82
-    21300166: minirogue-all_83
-    21300168: minirogue-all_84
-    21300170: minirogue-all_85
-    21300172: minirogue-all_86
-    21300174: minirogue-all_87
-    21300176: minirogue-all_88
-    21300178: minirogue-all_89
-    21300180: minirogue-all_90
-    21300182: minirogue-all_91
-    21300184: minirogue-all_92
-    21300186: minirogue-all_93
-    21300188: minirogue-all_94
-    21300190: minirogue-all_95
-    21300192: minirogue-all_96
-    21300194: minirogue-all_97
-    21300196: minirogue-all_98
-    21300198: minirogue-all_99
-    21300200: minirogue-all_100
-    21300202: minirogue-all_101
-    21300204: minirogue-all_102
-    21300206: minirogue-all_103
-    21300208: minirogue-all_104
-    21300210: minirogue-all_105
-    21300212: minirogue-all_106
-    21300214: minirogue-all_107
-    21300216: minirogue-all_108
-    21300218: minirogue-all_109
-    21300220: minirogue-all_110
-    21300222: minirogue-all_111
-    21300224: minirogue-all_112
-    21300226: minirogue-all_113
-    21300228: minirogue-all_114
-    21300230: minirogue-all_115
-    21300232: minirogue-all_116
-    21300234: minirogue-all_117
-    21300236: minirogue-all_118
-    21300238: minirogue-all_119
-    21300240: minirogue-all_120
-    21300242: minirogue-all_121
-    21300244: minirogue-all_122
-    21300246: minirogue-all_123
-    21300248: minirogue-all_124
-    21300250: minirogue-all_125
-    21300252: minirogue-all_126
-    21300254: minirogue-all_127
-    21300256: minirogue-all_128
-    21300258: minirogue-all_129
-    21300260: minirogue-all_130
-    21300262: minirogue-all_131
-    21300264: minirogue-all_132
-    21300266: minirogue-all_133
-    21300268: minirogue-all_134
-    21300270: minirogue-all_135
-    21300272: minirogue-all_136
-    21300274: minirogue-all_137
-    21300276: minirogue-all_138
-    21300278: minirogue-all_139
-    21300280: minirogue-all_140
-    21300282: minirogue-all_141
-    21300284: minirogue-all_142
-    21300286: minirogue-all_143
-    21300288: minirogue-all_144
-    21300290: minirogue-all_145
-    21300292: minirogue-all_146
-    21300294: minirogue-all_147
-    21300296: minirogue-all_148
-    21300298: minirogue-all_149
-    21300300: minirogue-all_150
-    21300302: minirogue-all_151
-    21300304: minirogue-all_152
-    21300306: minirogue-all_153
-    21300308: minirogue-all_154
-    21300310: minirogue-all_155
-    21300312: minirogue-all_156
-    21300314: minirogue-all_157
-    21300316: minirogue-all_158
-    21300318: minirogue-all_159
-    21300320: minirogue-all_160
-    21300322: minirogue-all_161
-    21300324: minirogue-all_162
-    21300326: minirogue-all_163
-    21300328: minirogue-all_164
-    21300330: minirogue-all_165
-    21300332: minirogue-all_166
-    21300334: minirogue-all_167
-    21300336: minirogue-all_168
-    21300338: minirogue-all_169
-    21300340: minirogue-all_170
-    21300342: minirogue-all_171
-    21300344: minirogue-all_172
-    21300346: minirogue-all_173
-    21300348: minirogue-all_174
-    21300350: minirogue-all_175
-    21300352: minirogue-all_176
-    21300354: minirogue-all_177
-    21300356: minirogue-all_178
-    21300358: minirogue-all_179
-    21300360: minirogue-all_180
-    21300362: minirogue-all_181
-    21300364: minirogue-all_182
-    21300366: minirogue-all_183
-    21300368: minirogue-all_184
-    21300370: minirogue-all_185
-    21300372: minirogue-all_186
-    21300374: minirogue-all_187
-    21300376: minirogue-all_188
-    21300378: minirogue-all_189
-    21300380: minirogue-all_190
-    21300382: minirogue-all_191
-    21300384: minirogue-all_192
-    21300386: minirogue-all_193
-    21300388: minirogue-all_194
-    21300390: minirogue-all_195
-    21300392: minirogue-all_196
-    21300394: minirogue-all_197
-    21300396: minirogue-all_198
-    21300398: minirogue-all_199
-    21300400: minirogue-all_200
-    21300402: minirogue-all_201
-    21300404: minirogue-all_202
-    21300406: minirogue-all_203
-    21300408: minirogue-all_204
-    21300410: minirogue-all_205
-    21300412: minirogue-all_206
-    21300414: minirogue-all_207
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: minirogue-all_0
+  - first:
+      213: 21300002
+    second: minirogue-all_1
+  - first:
+      213: 21300004
+    second: minirogue-all_2
+  - first:
+      213: 21300006
+    second: minirogue-all_3
+  - first:
+      213: 21300008
+    second: minirogue-all_4
+  - first:
+      213: 21300010
+    second: minirogue-all_5
+  - first:
+      213: 21300012
+    second: minirogue-all_6
+  - first:
+      213: 21300014
+    second: minirogue-all_7
+  - first:
+      213: 21300016
+    second: minirogue-all_8
+  - first:
+      213: 21300018
+    second: minirogue-all_9
+  - first:
+      213: 21300020
+    second: minirogue-all_10
+  - first:
+      213: 21300022
+    second: minirogue-all_11
+  - first:
+      213: 21300024
+    second: minirogue-all_12
+  - first:
+      213: 21300026
+    second: minirogue-all_13
+  - first:
+      213: 21300028
+    second: minirogue-all_14
+  - first:
+      213: 21300030
+    second: minirogue-all_15
+  - first:
+      213: 21300032
+    second: minirogue-all_16
+  - first:
+      213: 21300034
+    second: minirogue-all_17
+  - first:
+      213: 21300036
+    second: minirogue-all_18
+  - first:
+      213: 21300038
+    second: minirogue-all_19
+  - first:
+      213: 21300040
+    second: minirogue-all_20
+  - first:
+      213: 21300042
+    second: minirogue-all_21
+  - first:
+      213: 21300044
+    second: minirogue-all_22
+  - first:
+      213: 21300046
+    second: minirogue-all_23
+  - first:
+      213: 21300048
+    second: minirogue-all_24
+  - first:
+      213: 21300050
+    second: minirogue-all_25
+  - first:
+      213: 21300052
+    second: minirogue-all_26
+  - first:
+      213: 21300054
+    second: minirogue-all_27
+  - first:
+      213: 21300056
+    second: minirogue-all_28
+  - first:
+      213: 21300058
+    second: minirogue-all_29
+  - first:
+      213: 21300060
+    second: minirogue-all_30
+  - first:
+      213: 21300062
+    second: minirogue-all_31
+  - first:
+      213: 21300064
+    second: minirogue-all_32
+  - first:
+      213: 21300066
+    second: minirogue-all_33
+  - first:
+      213: 21300068
+    second: minirogue-all_34
+  - first:
+      213: 21300070
+    second: minirogue-all_35
+  - first:
+      213: 21300072
+    second: minirogue-all_36
+  - first:
+      213: 21300074
+    second: minirogue-all_37
+  - first:
+      213: 21300076
+    second: minirogue-all_38
+  - first:
+      213: 21300078
+    second: minirogue-all_39
+  - first:
+      213: 21300080
+    second: minirogue-all_40
+  - first:
+      213: 21300082
+    second: minirogue-all_41
+  - first:
+      213: 21300084
+    second: minirogue-all_42
+  - first:
+      213: 21300086
+    second: minirogue-all_43
+  - first:
+      213: 21300088
+    second: minirogue-all_44
+  - first:
+      213: 21300090
+    second: minirogue-all_45
+  - first:
+      213: 21300092
+    second: minirogue-all_46
+  - first:
+      213: 21300094
+    second: minirogue-all_47
+  - first:
+      213: 21300096
+    second: minirogue-all_48
+  - first:
+      213: 21300098
+    second: minirogue-all_49
+  - first:
+      213: 21300100
+    second: minirogue-all_50
+  - first:
+      213: 21300102
+    second: minirogue-all_51
+  - first:
+      213: 21300104
+    second: minirogue-all_52
+  - first:
+      213: 21300106
+    second: minirogue-all_53
+  - first:
+      213: 21300108
+    second: minirogue-all_54
+  - first:
+      213: 21300110
+    second: minirogue-all_55
+  - first:
+      213: 21300112
+    second: minirogue-all_56
+  - first:
+      213: 21300114
+    second: minirogue-all_57
+  - first:
+      213: 21300116
+    second: minirogue-all_58
+  - first:
+      213: 21300118
+    second: minirogue-all_59
+  - first:
+      213: 21300120
+    second: minirogue-all_60
+  - first:
+      213: 21300122
+    second: minirogue-all_61
+  - first:
+      213: 21300124
+    second: minirogue-all_62
+  - first:
+      213: 21300126
+    second: minirogue-all_63
+  - first:
+      213: 21300128
+    second: minirogue-all_64
+  - first:
+      213: 21300130
+    second: minirogue-all_65
+  - first:
+      213: 21300132
+    second: minirogue-all_66
+  - first:
+      213: 21300134
+    second: minirogue-all_67
+  - first:
+      213: 21300136
+    second: minirogue-all_68
+  - first:
+      213: 21300138
+    second: minirogue-all_69
+  - first:
+      213: 21300140
+    second: minirogue-all_70
+  - first:
+      213: 21300142
+    second: minirogue-all_71
+  - first:
+      213: 21300144
+    second: minirogue-all_72
+  - first:
+      213: 21300146
+    second: minirogue-all_73
+  - first:
+      213: 21300148
+    second: minirogue-all_74
+  - first:
+      213: 21300150
+    second: minirogue-all_75
+  - first:
+      213: 21300152
+    second: minirogue-all_76
+  - first:
+      213: 21300154
+    second: minirogue-all_77
+  - first:
+      213: 21300156
+    second: minirogue-all_78
+  - first:
+      213: 21300158
+    second: minirogue-all_79
+  - first:
+      213: 21300160
+    second: minirogue-all_80
+  - first:
+      213: 21300162
+    second: minirogue-all_81
+  - first:
+      213: 21300164
+    second: minirogue-all_82
+  - first:
+      213: 21300166
+    second: minirogue-all_83
+  - first:
+      213: 21300168
+    second: minirogue-all_84
+  - first:
+      213: 21300170
+    second: minirogue-all_85
+  - first:
+      213: 21300172
+    second: minirogue-all_86
+  - first:
+      213: 21300174
+    second: minirogue-all_87
+  - first:
+      213: 21300176
+    second: minirogue-all_88
+  - first:
+      213: 21300178
+    second: minirogue-all_89
+  - first:
+      213: 21300180
+    second: minirogue-all_90
+  - first:
+      213: 21300182
+    second: minirogue-all_91
+  - first:
+      213: 21300184
+    second: minirogue-all_92
+  - first:
+      213: 21300186
+    second: minirogue-all_93
+  - first:
+      213: 21300188
+    second: minirogue-all_94
+  - first:
+      213: 21300190
+    second: minirogue-all_95
+  - first:
+      213: 21300192
+    second: minirogue-all_96
+  - first:
+      213: 21300194
+    second: minirogue-all_97
+  - first:
+      213: 21300196
+    second: minirogue-all_98
+  - first:
+      213: 21300198
+    second: minirogue-all_99
+  - first:
+      213: 21300200
+    second: minirogue-all_100
+  - first:
+      213: 21300202
+    second: minirogue-all_101
+  - first:
+      213: 21300204
+    second: minirogue-all_102
+  - first:
+      213: 21300206
+    second: minirogue-all_103
+  - first:
+      213: 21300208
+    second: minirogue-all_104
+  - first:
+      213: 21300210
+    second: minirogue-all_105
+  - first:
+      213: 21300212
+    second: minirogue-all_106
+  - first:
+      213: 21300214
+    second: minirogue-all_107
+  - first:
+      213: 21300216
+    second: minirogue-all_108
+  - first:
+      213: 21300218
+    second: minirogue-all_109
+  - first:
+      213: 21300220
+    second: minirogue-all_110
+  - first:
+      213: 21300222
+    second: minirogue-all_111
+  - first:
+      213: 21300224
+    second: minirogue-all_112
+  - first:
+      213: 21300226
+    second: minirogue-all_113
+  - first:
+      213: 21300228
+    second: minirogue-all_114
+  - first:
+      213: 21300230
+    second: minirogue-all_115
+  - first:
+      213: 21300232
+    second: minirogue-all_116
+  - first:
+      213: 21300234
+    second: minirogue-all_117
+  - first:
+      213: 21300236
+    second: minirogue-all_118
+  - first:
+      213: 21300238
+    second: minirogue-all_119
+  - first:
+      213: 21300240
+    second: minirogue-all_120
+  - first:
+      213: 21300242
+    second: minirogue-all_121
+  - first:
+      213: 21300244
+    second: minirogue-all_122
+  - first:
+      213: 21300246
+    second: minirogue-all_123
+  - first:
+      213: 21300248
+    second: minirogue-all_124
+  - first:
+      213: 21300250
+    second: minirogue-all_125
+  - first:
+      213: 21300252
+    second: minirogue-all_126
+  - first:
+      213: 21300254
+    second: minirogue-all_127
+  - first:
+      213: 21300256
+    second: minirogue-all_128
+  - first:
+      213: 21300258
+    second: minirogue-all_129
+  - first:
+      213: 21300260
+    second: minirogue-all_130
+  - first:
+      213: 21300262
+    second: minirogue-all_131
+  - first:
+      213: 21300264
+    second: minirogue-all_132
+  - first:
+      213: 21300266
+    second: minirogue-all_133
+  - first:
+      213: 21300268
+    second: minirogue-all_134
+  - first:
+      213: 21300270
+    second: minirogue-all_135
+  - first:
+      213: 21300272
+    second: minirogue-all_136
+  - first:
+      213: 21300274
+    second: minirogue-all_137
+  - first:
+      213: 21300276
+    second: minirogue-all_138
+  - first:
+      213: 21300278
+    second: minirogue-all_139
+  - first:
+      213: 21300280
+    second: minirogue-all_140
+  - first:
+      213: 21300282
+    second: minirogue-all_141
+  - first:
+      213: 21300284
+    second: minirogue-all_142
+  - first:
+      213: 21300286
+    second: minirogue-all_143
+  - first:
+      213: 21300288
+    second: minirogue-all_144
+  - first:
+      213: 21300290
+    second: minirogue-all_145
+  - first:
+      213: 21300292
+    second: minirogue-all_146
+  - first:
+      213: 21300294
+    second: minirogue-all_147
+  - first:
+      213: 21300296
+    second: minirogue-all_148
+  - first:
+      213: 21300298
+    second: minirogue-all_149
+  - first:
+      213: 21300300
+    second: minirogue-all_150
+  - first:
+      213: 21300302
+    second: minirogue-all_151
+  - first:
+      213: 21300304
+    second: minirogue-all_152
+  - first:
+      213: 21300306
+    second: minirogue-all_153
+  - first:
+      213: 21300308
+    second: minirogue-all_154
+  - first:
+      213: 21300310
+    second: minirogue-all_155
+  - first:
+      213: 21300312
+    second: minirogue-all_156
+  - first:
+      213: 21300314
+    second: minirogue-all_157
+  - first:
+      213: 21300316
+    second: minirogue-all_158
+  - first:
+      213: 21300318
+    second: minirogue-all_159
+  - first:
+      213: 21300320
+    second: minirogue-all_160
+  - first:
+      213: 21300322
+    second: minirogue-all_161
+  - first:
+      213: 21300324
+    second: minirogue-all_162
+  - first:
+      213: 21300326
+    second: minirogue-all_163
+  - first:
+      213: 21300328
+    second: minirogue-all_164
+  - first:
+      213: 21300330
+    second: minirogue-all_165
+  - first:
+      213: 21300332
+    second: minirogue-all_166
+  - first:
+      213: 21300334
+    second: minirogue-all_167
+  - first:
+      213: 21300336
+    second: minirogue-all_168
+  - first:
+      213: 21300338
+    second: minirogue-all_169
+  - first:
+      213: 21300340
+    second: minirogue-all_170
+  - first:
+      213: 21300342
+    second: minirogue-all_171
+  - first:
+      213: 21300344
+    second: minirogue-all_172
+  - first:
+      213: 21300346
+    second: minirogue-all_173
+  - first:
+      213: 21300348
+    second: minirogue-all_174
+  - first:
+      213: 21300350
+    second: minirogue-all_175
+  - first:
+      213: 21300352
+    second: minirogue-all_176
+  - first:
+      213: 21300354
+    second: minirogue-all_177
+  - first:
+      213: 21300356
+    second: minirogue-all_178
+  - first:
+      213: 21300358
+    second: minirogue-all_179
+  - first:
+      213: 21300360
+    second: minirogue-all_180
+  - first:
+      213: 21300362
+    second: minirogue-all_181
+  - first:
+      213: 21300364
+    second: minirogue-all_182
+  - first:
+      213: 21300366
+    second: minirogue-all_183
+  - first:
+      213: 21300368
+    second: minirogue-all_184
+  - first:
+      213: 21300370
+    second: minirogue-all_185
+  - first:
+      213: 21300372
+    second: minirogue-all_186
+  - first:
+      213: 21300374
+    second: minirogue-all_187
+  - first:
+      213: 21300376
+    second: minirogue-all_188
+  - first:
+      213: 21300378
+    second: minirogue-all_189
+  - first:
+      213: 21300380
+    second: minirogue-all_190
+  - first:
+      213: 21300382
+    second: minirogue-all_191
+  - first:
+      213: 21300384
+    second: minirogue-all_192
+  - first:
+      213: 21300386
+    second: minirogue-all_193
+  - first:
+      213: 21300388
+    second: minirogue-all_194
+  - first:
+      213: 21300390
+    second: minirogue-all_195
+  - first:
+      213: 21300392
+    second: minirogue-all_196
+  - first:
+      213: 21300394
+    second: minirogue-all_197
+  - first:
+      213: 21300396
+    second: minirogue-all_198
+  - first:
+      213: 21300398
+    second: minirogue-all_199
+  - first:
+      213: 21300400
+    second: minirogue-all_200
+  - first:
+      213: 21300402
+    second: minirogue-all_201
+  - first:
+      213: 21300404
+    second: minirogue-all_202
+  - first:
+      213: 21300406
+    second: minirogue-all_203
+  - first:
+      213: 21300408
+    second: minirogue-all_204
+  - first:
+      213: 21300410
+    second: minirogue-all_205
+  - first:
+      213: 21300412
+    second: minirogue-all_206
+  - first:
+      213: 21300414
+    second: minirogue-all_207
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -230,6 +645,9 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -240,7 +658,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -252,49 +670,69 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: iPhone
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: WebGL
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -312,6 +750,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_1
       rect:
@@ -326,6 +771,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_2
       rect:
@@ -340,6 +792,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_3
       rect:
@@ -354,6 +813,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_4
       rect:
@@ -368,6 +834,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_5
       rect:
@@ -382,6 +855,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_6
       rect:
@@ -396,6 +876,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_7
       rect:
@@ -410,6 +897,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_8
       rect:
@@ -424,6 +918,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_9
       rect:
@@ -438,6 +939,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_10
       rect:
@@ -452,6 +960,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_11
       rect:
@@ -466,6 +981,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_12
       rect:
@@ -480,6 +1002,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_13
       rect:
@@ -494,6 +1023,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_14
       rect:
@@ -508,6 +1044,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_15
       rect:
@@ -522,6 +1065,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_16
       rect:
@@ -536,6 +1086,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_17
       rect:
@@ -550,6 +1107,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_18
       rect:
@@ -564,6 +1128,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_19
       rect:
@@ -578,6 +1149,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_20
       rect:
@@ -592,6 +1170,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_21
       rect:
@@ -606,6 +1191,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_22
       rect:
@@ -620,6 +1212,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_23
       rect:
@@ -634,6 +1233,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_24
       rect:
@@ -648,6 +1254,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_25
       rect:
@@ -662,6 +1275,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_26
       rect:
@@ -676,6 +1296,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_27
       rect:
@@ -690,6 +1317,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_28
       rect:
@@ -704,6 +1338,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_29
       rect:
@@ -718,6 +1359,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_30
       rect:
@@ -732,6 +1380,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_31
       rect:
@@ -746,6 +1401,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_32
       rect:
@@ -760,6 +1422,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_33
       rect:
@@ -774,6 +1443,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 26305410000000000800000000000000
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_34
       rect:
@@ -788,6 +1464,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 46305410000000000800000000000000
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_35
       rect:
@@ -802,6 +1485,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 66305410000000000800000000000000
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_36
       rect:
@@ -816,6 +1506,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 86305410000000000800000000000000
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_37
       rect:
@@ -830,6 +1527,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a6305410000000000800000000000000
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_38
       rect:
@@ -844,6 +1548,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c6305410000000000800000000000000
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_39
       rect:
@@ -858,6 +1569,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e6305410000000000800000000000000
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_40
       rect:
@@ -872,6 +1590,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 07305410000000000800000000000000
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_41
       rect:
@@ -886,6 +1611,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 27305410000000000800000000000000
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_42
       rect:
@@ -900,6 +1632,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 47305410000000000800000000000000
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_43
       rect:
@@ -914,6 +1653,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 67305410000000000800000000000000
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_44
       rect:
@@ -928,6 +1674,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 87305410000000000800000000000000
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_45
       rect:
@@ -942,6 +1695,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a7305410000000000800000000000000
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_46
       rect:
@@ -956,6 +1716,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c7305410000000000800000000000000
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_47
       rect:
@@ -970,6 +1737,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e7305410000000000800000000000000
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_48
       rect:
@@ -984,6 +1758,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 08305410000000000800000000000000
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_49
       rect:
@@ -998,6 +1779,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 28305410000000000800000000000000
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_50
       rect:
@@ -1012,6 +1800,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 48305410000000000800000000000000
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_51
       rect:
@@ -1026,6 +1821,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 68305410000000000800000000000000
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_52
       rect:
@@ -1040,6 +1842,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 88305410000000000800000000000000
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_53
       rect:
@@ -1054,6 +1863,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a8305410000000000800000000000000
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_54
       rect:
@@ -1068,6 +1884,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c8305410000000000800000000000000
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_55
       rect:
@@ -1082,6 +1905,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e8305410000000000800000000000000
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_56
       rect:
@@ -1096,6 +1926,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 09305410000000000800000000000000
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_57
       rect:
@@ -1110,6 +1947,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 29305410000000000800000000000000
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_58
       rect:
@@ -1124,6 +1968,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 49305410000000000800000000000000
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_59
       rect:
@@ -1138,6 +1989,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 69305410000000000800000000000000
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_60
       rect:
@@ -1152,6 +2010,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 89305410000000000800000000000000
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_61
       rect:
@@ -1166,6 +2031,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a9305410000000000800000000000000
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_62
       rect:
@@ -1180,6 +2052,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c9305410000000000800000000000000
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_63
       rect:
@@ -1194,6 +2073,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e9305410000000000800000000000000
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_64
       rect:
@@ -1208,6 +2094,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0a305410000000000800000000000000
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_65
       rect:
@@ -1222,6 +2115,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2a305410000000000800000000000000
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_66
       rect:
@@ -1236,6 +2136,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4a305410000000000800000000000000
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_67
       rect:
@@ -1250,6 +2157,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6a305410000000000800000000000000
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_68
       rect:
@@ -1264,6 +2178,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8a305410000000000800000000000000
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_69
       rect:
@@ -1278,6 +2199,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aa305410000000000800000000000000
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_70
       rect:
@@ -1292,6 +2220,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ca305410000000000800000000000000
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_71
       rect:
@@ -1306,6 +2241,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ea305410000000000800000000000000
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_72
       rect:
@@ -1320,6 +2262,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0b305410000000000800000000000000
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_73
       rect:
@@ -1334,6 +2283,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2b305410000000000800000000000000
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_74
       rect:
@@ -1348,6 +2304,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4b305410000000000800000000000000
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_75
       rect:
@@ -1362,6 +2325,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6b305410000000000800000000000000
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_76
       rect:
@@ -1376,6 +2346,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8b305410000000000800000000000000
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_77
       rect:
@@ -1390,6 +2367,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ab305410000000000800000000000000
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_78
       rect:
@@ -1404,6 +2388,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cb305410000000000800000000000000
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_79
       rect:
@@ -1418,6 +2409,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: eb305410000000000800000000000000
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_80
       rect:
@@ -1432,6 +2430,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0c305410000000000800000000000000
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_81
       rect:
@@ -1446,6 +2451,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2c305410000000000800000000000000
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_82
       rect:
@@ -1460,6 +2472,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4c305410000000000800000000000000
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_83
       rect:
@@ -1474,6 +2493,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6c305410000000000800000000000000
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_84
       rect:
@@ -1488,6 +2514,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8c305410000000000800000000000000
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_85
       rect:
@@ -1502,6 +2535,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ac305410000000000800000000000000
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_86
       rect:
@@ -1516,6 +2556,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cc305410000000000800000000000000
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_87
       rect:
@@ -1530,6 +2577,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ec305410000000000800000000000000
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_88
       rect:
@@ -1544,6 +2598,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0d305410000000000800000000000000
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_89
       rect:
@@ -1558,6 +2619,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2d305410000000000800000000000000
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_90
       rect:
@@ -1572,6 +2640,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4d305410000000000800000000000000
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_91
       rect:
@@ -1586,6 +2661,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6d305410000000000800000000000000
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_92
       rect:
@@ -1600,6 +2682,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8d305410000000000800000000000000
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_93
       rect:
@@ -1614,6 +2703,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ad305410000000000800000000000000
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_94
       rect:
@@ -1628,6 +2724,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cd305410000000000800000000000000
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_95
       rect:
@@ -1642,6 +2745,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ed305410000000000800000000000000
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_96
       rect:
@@ -1656,6 +2766,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0e305410000000000800000000000000
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_97
       rect:
@@ -1670,6 +2787,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2e305410000000000800000000000000
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_98
       rect:
@@ -1684,6 +2808,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4e305410000000000800000000000000
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_99
       rect:
@@ -1698,6 +2829,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6e305410000000000800000000000000
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_100
       rect:
@@ -1712,6 +2850,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8e305410000000000800000000000000
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_101
       rect:
@@ -1726,6 +2871,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ae305410000000000800000000000000
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_102
       rect:
@@ -1740,6 +2892,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ce305410000000000800000000000000
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_103
       rect:
@@ -1754,6 +2913,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ee305410000000000800000000000000
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_104
       rect:
@@ -1768,6 +2934,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0f305410000000000800000000000000
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_105
       rect:
@@ -1782,6 +2955,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2f305410000000000800000000000000
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_106
       rect:
@@ -1796,6 +2976,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4f305410000000000800000000000000
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_107
       rect:
@@ -1810,6 +2997,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6f305410000000000800000000000000
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_108
       rect:
@@ -1824,6 +3018,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8f305410000000000800000000000000
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_109
       rect:
@@ -1838,6 +3039,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: af305410000000000800000000000000
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_110
       rect:
@@ -1852,6 +3060,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cf305410000000000800000000000000
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_111
       rect:
@@ -1866,6 +3081,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ef305410000000000800000000000000
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_112
       rect:
@@ -1880,6 +3102,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 00405410000000000800000000000000
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_113
       rect:
@@ -1894,6 +3123,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 20405410000000000800000000000000
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_114
       rect:
@@ -1908,6 +3144,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 40405410000000000800000000000000
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_115
       rect:
@@ -1922,6 +3165,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 60405410000000000800000000000000
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_116
       rect:
@@ -1936,6 +3186,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 80405410000000000800000000000000
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_117
       rect:
@@ -1950,6 +3207,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a0405410000000000800000000000000
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_118
       rect:
@@ -1964,6 +3228,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c0405410000000000800000000000000
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_119
       rect:
@@ -1978,6 +3249,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e0405410000000000800000000000000
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_120
       rect:
@@ -1992,6 +3270,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 01405410000000000800000000000000
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_121
       rect:
@@ -2006,6 +3291,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 21405410000000000800000000000000
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_122
       rect:
@@ -2020,6 +3312,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 41405410000000000800000000000000
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_123
       rect:
@@ -2034,6 +3333,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 61405410000000000800000000000000
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_124
       rect:
@@ -2048,6 +3354,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 81405410000000000800000000000000
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_125
       rect:
@@ -2062,6 +3375,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a1405410000000000800000000000000
+      internalID: 21300250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_126
       rect:
@@ -2076,6 +3396,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c1405410000000000800000000000000
+      internalID: 21300252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_127
       rect:
@@ -2090,6 +3417,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e1405410000000000800000000000000
+      internalID: 21300254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_128
       rect:
@@ -2104,6 +3438,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02405410000000000800000000000000
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_129
       rect:
@@ -2118,6 +3459,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22405410000000000800000000000000
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_130
       rect:
@@ -2132,6 +3480,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42405410000000000800000000000000
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_131
       rect:
@@ -2146,6 +3501,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 62405410000000000800000000000000
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_132
       rect:
@@ -2160,6 +3522,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82405410000000000800000000000000
+      internalID: 21300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_133
       rect:
@@ -2174,6 +3543,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2405410000000000800000000000000
+      internalID: 21300266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_134
       rect:
@@ -2188,6 +3564,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2405410000000000800000000000000
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_135
       rect:
@@ -2202,6 +3585,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2405410000000000800000000000000
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_136
       rect:
@@ -2216,6 +3606,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03405410000000000800000000000000
+      internalID: 21300272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_137
       rect:
@@ -2230,6 +3627,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 23405410000000000800000000000000
+      internalID: 21300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_138
       rect:
@@ -2244,6 +3648,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 43405410000000000800000000000000
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_139
       rect:
@@ -2258,6 +3669,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 63405410000000000800000000000000
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_140
       rect:
@@ -2272,6 +3690,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 83405410000000000800000000000000
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_141
       rect:
@@ -2286,6 +3711,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a3405410000000000800000000000000
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_142
       rect:
@@ -2300,6 +3732,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c3405410000000000800000000000000
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_143
       rect:
@@ -2314,6 +3753,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e3405410000000000800000000000000
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_144
       rect:
@@ -2328,6 +3774,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 04405410000000000800000000000000
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_145
       rect:
@@ -2342,6 +3795,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 24405410000000000800000000000000
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_146
       rect:
@@ -2356,6 +3816,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 44405410000000000800000000000000
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_147
       rect:
@@ -2370,6 +3837,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 64405410000000000800000000000000
+      internalID: 21300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_148
       rect:
@@ -2384,6 +3858,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 84405410000000000800000000000000
+      internalID: 21300296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_149
       rect:
@@ -2398,6 +3879,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a4405410000000000800000000000000
+      internalID: 21300298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_150
       rect:
@@ -2412,6 +3900,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c4405410000000000800000000000000
+      internalID: 21300300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_151
       rect:
@@ -2426,6 +3921,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e4405410000000000800000000000000
+      internalID: 21300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_152
       rect:
@@ -2440,6 +3942,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 05405410000000000800000000000000
+      internalID: 21300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_153
       rect:
@@ -2454,6 +3963,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 25405410000000000800000000000000
+      internalID: 21300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_154
       rect:
@@ -2468,6 +3984,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 45405410000000000800000000000000
+      internalID: 21300308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_155
       rect:
@@ -2482,6 +4005,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 65405410000000000800000000000000
+      internalID: 21300310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_156
       rect:
@@ -2496,6 +4026,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 85405410000000000800000000000000
+      internalID: 21300312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_157
       rect:
@@ -2510,6 +4047,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a5405410000000000800000000000000
+      internalID: 21300314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_158
       rect:
@@ -2524,6 +4068,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c5405410000000000800000000000000
+      internalID: 21300316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_159
       rect:
@@ -2538,6 +4089,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e5405410000000000800000000000000
+      internalID: 21300318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_160
       rect:
@@ -2552,6 +4110,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 06405410000000000800000000000000
+      internalID: 21300320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_161
       rect:
@@ -2566,6 +4131,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 26405410000000000800000000000000
+      internalID: 21300322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_162
       rect:
@@ -2580,6 +4152,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 46405410000000000800000000000000
+      internalID: 21300324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_163
       rect:
@@ -2594,6 +4173,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 66405410000000000800000000000000
+      internalID: 21300326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_164
       rect:
@@ -2608,6 +4194,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 86405410000000000800000000000000
+      internalID: 21300328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_165
       rect:
@@ -2622,6 +4215,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a6405410000000000800000000000000
+      internalID: 21300330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_166
       rect:
@@ -2636,6 +4236,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c6405410000000000800000000000000
+      internalID: 21300332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_167
       rect:
@@ -2650,6 +4257,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e6405410000000000800000000000000
+      internalID: 21300334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_168
       rect:
@@ -2664,6 +4278,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 07405410000000000800000000000000
+      internalID: 21300336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_169
       rect:
@@ -2678,6 +4299,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 27405410000000000800000000000000
+      internalID: 21300338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_170
       rect:
@@ -2692,6 +4320,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 47405410000000000800000000000000
+      internalID: 21300340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_171
       rect:
@@ -2706,6 +4341,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 67405410000000000800000000000000
+      internalID: 21300342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_172
       rect:
@@ -2720,6 +4362,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 87405410000000000800000000000000
+      internalID: 21300344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_173
       rect:
@@ -2734,6 +4383,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a7405410000000000800000000000000
+      internalID: 21300346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_174
       rect:
@@ -2748,6 +4404,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c7405410000000000800000000000000
+      internalID: 21300348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_175
       rect:
@@ -2762,6 +4425,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e7405410000000000800000000000000
+      internalID: 21300350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_176
       rect:
@@ -2776,6 +4446,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 08405410000000000800000000000000
+      internalID: 21300352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_177
       rect:
@@ -2790,6 +4467,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 28405410000000000800000000000000
+      internalID: 21300354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_178
       rect:
@@ -2804,6 +4488,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 48405410000000000800000000000000
+      internalID: 21300356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_179
       rect:
@@ -2818,6 +4509,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 68405410000000000800000000000000
+      internalID: 21300358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_180
       rect:
@@ -2832,6 +4530,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 88405410000000000800000000000000
+      internalID: 21300360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_181
       rect:
@@ -2846,6 +4551,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a8405410000000000800000000000000
+      internalID: 21300362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_182
       rect:
@@ -2860,6 +4572,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c8405410000000000800000000000000
+      internalID: 21300364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_183
       rect:
@@ -2874,6 +4593,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e8405410000000000800000000000000
+      internalID: 21300366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_184
       rect:
@@ -2888,6 +4614,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 09405410000000000800000000000000
+      internalID: 21300368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_185
       rect:
@@ -2902,6 +4635,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 29405410000000000800000000000000
+      internalID: 21300370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_186
       rect:
@@ -2916,6 +4656,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 49405410000000000800000000000000
+      internalID: 21300372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_187
       rect:
@@ -2930,6 +4677,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 69405410000000000800000000000000
+      internalID: 21300374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_188
       rect:
@@ -2944,6 +4698,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 89405410000000000800000000000000
+      internalID: 21300376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_189
       rect:
@@ -2958,6 +4719,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a9405410000000000800000000000000
+      internalID: 21300378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_190
       rect:
@@ -2972,6 +4740,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c9405410000000000800000000000000
+      internalID: 21300380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_191
       rect:
@@ -2986,6 +4761,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e9405410000000000800000000000000
+      internalID: 21300382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_192
       rect:
@@ -3000,6 +4782,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0a405410000000000800000000000000
+      internalID: 21300384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_193
       rect:
@@ -3014,6 +4803,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2a405410000000000800000000000000
+      internalID: 21300386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_194
       rect:
@@ -3028,6 +4824,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4a405410000000000800000000000000
+      internalID: 21300388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_195
       rect:
@@ -3042,6 +4845,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6a405410000000000800000000000000
+      internalID: 21300390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_196
       rect:
@@ -3056,6 +4866,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8a405410000000000800000000000000
+      internalID: 21300392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_197
       rect:
@@ -3070,6 +4887,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: aa405410000000000800000000000000
+      internalID: 21300394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_198
       rect:
@@ -3084,6 +4908,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ca405410000000000800000000000000
+      internalID: 21300396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_199
       rect:
@@ -3098,6 +4929,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ea405410000000000800000000000000
+      internalID: 21300398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_200
       rect:
@@ -3112,6 +4950,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0b405410000000000800000000000000
+      internalID: 21300400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_201
       rect:
@@ -3126,6 +4971,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2b405410000000000800000000000000
+      internalID: 21300402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_202
       rect:
@@ -3140,6 +4992,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4b405410000000000800000000000000
+      internalID: 21300404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_203
       rect:
@@ -3154,6 +5013,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6b405410000000000800000000000000
+      internalID: 21300406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_204
       rect:
@@ -3168,6 +5034,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 8b405410000000000800000000000000
+      internalID: 21300408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_205
       rect:
@@ -3182,6 +5055,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ab405410000000000800000000000000
+      internalID: 21300410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_206
       rect:
@@ -3196,6 +5076,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: cb405410000000000800000000000000
+      internalID: 21300412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: minirogue-all_207
       rect:
@@ -3210,9 +5097,26 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: eb405410000000000800000000000000
+      internalID: 21300414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public enum Stat
@@ -10,26 +11,33 @@ public enum Stat
     Wit,
 }
 
-[RequireComponent(typeof(TextMeshProUGUI))]
 public class StatsTracker : MonoBehaviour
 {
-    private TextMeshProUGUI textMesh;
-
     public Stat stat;
+    public TextMeshProUGUI value;
+    public Slider progress;
     [HideInInspector]
     public Player player;
 
     void Start()
     {
-        textMesh = gameObject.GetComponent<TextMeshProUGUI>();
         player = FindObjectOfType<Player>();
         InvokeRepeating("UpdateStat", 0, 2.0f);
     }
 
     void UpdateStat()
     {
-        if (stat == Stat.Might) textMesh.SetText(player.might.ToString());
-        else if (stat == Stat.Charm) textMesh.SetText(player.charm.ToString());
-        else if (stat == Stat.Wit) textMesh.SetText(player.wit.ToString());
+        if (value)
+        {
+            if (stat == Stat.Might) value.SetText(((int)player.might).ToString());
+            else if (stat == Stat.Charm) value.SetText(((int)player.charm).ToString());
+            else if (stat == Stat.Wit) value.SetText(((int)player.wit).ToString());
+        }
+        if (progress)
+        {
+            if (stat == Stat.Might) progress.value = player.might % 1;
+            else if (stat == Stat.Charm) progress.value = player.charm % 1;
+            else if (stat == Stat.Wit) progress.value = player.wit % 1;
+        }
     }
 }

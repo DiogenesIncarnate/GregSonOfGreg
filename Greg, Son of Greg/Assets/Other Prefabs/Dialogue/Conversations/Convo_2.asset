@@ -31,7 +31,7 @@ MonoBehaviour:
     dialogueType: 1
     dialogueOptions:
     - Well, I would be more than happy to offer some assistance on your travels.
-    - I don't like your tone, stranger. Momma never level your speechcraft or something?
+    - I don't like your tone, stranger. Mother never level your speechcraft or something?
     - Well, good luck to you.
     threatLevels: 020000000000000001000000
   - speaker: {fileID: 11400000, guid: 062d7247a2a9f164d8106d3b522f58dd, type: 2}

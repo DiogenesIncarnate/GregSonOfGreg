@@ -80,7 +80,7 @@ public class Controller2D : RaycastController {
                 currentBottomOrigin = rayOrigin;
                 if (Mathf.Abs(moveAmount.x) > 0 && moveAmount.y > 0)
                 {
-                    ClimbLedge();
+                    //ClimbLedge();
                 }
             }
             else

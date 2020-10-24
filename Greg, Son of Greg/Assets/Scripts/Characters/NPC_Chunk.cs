@@ -25,7 +25,7 @@ public class NPC_Chunk : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!dialogueCompleted && InDialogueRange() && dialogueManager.possibleConvos.Count >= 1)
+        if (!dialogueCompleted && NPCs.Count > 0 && !AnyHostile() && InDialogueRange() && dialogueManager.possibleConvos.Count >= 1)
         {
             DialogueManager.ToggleCharacters(false);
             DialogueManager.StartConversation(dialogueManager.possibleConvos[Random.Range(0, dialogueManager.possibleConvos.Count - 1)]);
@@ -40,5 +40,15 @@ public class NPC_Chunk : MonoBehaviour
         Vector2 dist = transform.position - player.transform.position;
 
         return (Mathf.Abs(dist.x) < 5.0f && Mathf.Abs(dist.y) < 1.0f);
+    }
+
+    public bool AnyHostile()
+    {
+        foreach(NPC npc in NPCs)
+        {
+            if (npc.GetInclination() == Inclination.Hostile) return true;
+        }
+
+        return false;
     }
 }

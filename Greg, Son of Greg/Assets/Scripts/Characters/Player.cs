@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.Tilemaps;
+using UnityEngine.SceneManagement;
 
 public class Player : DynamicCharacter
 {
@@ -32,6 +33,11 @@ public class Player : DynamicCharacter
         base.Update();
 
         HandleWallSliding();
+
+        if (isDead)
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 
 	public void OnJumpInputDown() {
@@ -93,11 +99,15 @@ public class Player : DynamicCharacter
     {
         base.SetPhysicsFromAbilities();
 
-        wallJumpClimb = new Vector2(0.3f * might, 1.5f * might);
-        wallJumpOff = new Vector2(0.5f * might, 1f * might);
-        wallLeap = new Vector2(1.5f * might, 1.5f * might);
-        wallSlideSpeedMax = 40f / might;
-        wallStickTime = .04f * wit;
+        float _might = (int)might;
+        float _charm = (int)charm;
+        float _wit = (int)wit;
+
+        wallJumpClimb = new Vector2(0.3f * _might, 1.5f * _might);
+        wallJumpOff = new Vector2(0.5f * _might, 1f * _might);
+        wallLeap = new Vector2(1.5f * _might, 1.5f * _might);
+        wallSlideSpeedMax = 40f / _might;
+        wallStickTime = .04f * _wit;
 }
 
     private void OnDrawGizmosSelected()

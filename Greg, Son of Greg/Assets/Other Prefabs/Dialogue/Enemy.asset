@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0b5d695b7cc21f4f9d04ab552885177, type: 3}
   m_Name: Enemy
   m_EditorClassIdentifier: 
-  speakerName: Enemy
+  speakerName: Knight
   speakerSprite: {fileID: 8960753101777847428, guid: 1bd43bad2eb95d24592a8374acee73cd,
     type: 3}

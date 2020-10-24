@@ -16,9 +16,20 @@ public class NPC : DynamicCharacter
     public List<DynamicCharacter> hostiles;
     public DynamicCharacter closestHostile;
     public float awarenessRadius = 10.0f;
-    public Inclination inclination = Inclination.Neutral;
+    private Inclination inclination = Inclination.Neutral;
     public GameObject parentChunk;
     public Transform origin;
+
+    public void SetInclination(Inclination i)
+    {
+        inclination = i;
+        UpdateHostiles();
+    }
+
+    public Inclination GetInclination()
+    {
+        return inclination;
+    }
 
     // Start is called before the first frame update
     protected override void Start()
@@ -40,7 +51,7 @@ public class NPC : DynamicCharacter
     {
         base.Update();
 
-        if(inclination == Inclination.Hostile && !isDead)
+        if(inclination != Inclination.Neutral && !isDead && hostiles.Count > 0)
         {
             ActHostile();
         }
@@ -70,7 +81,9 @@ public class NPC : DynamicCharacter
 
     public void ActHostile()
     {
+        closestHostile = GetClosestHostile();
         Vector2 rel = RelativeToPosition(closestHostile.transform.position);
+
         if (InCombatRange())
         {
             FaceHostile(rel.x);
@@ -104,7 +117,30 @@ public class NPC : DynamicCharacter
 
     public void UpdateHostiles()
     {
+        hostiles.Clear();
 
+        if(inclination == Inclination.Friendly)
+        {
+            NPC[] allNPC = FindObjectsOfType<NPC>();
+            foreach (NPC n in allNPC)
+            {
+                if (n.GetInclination() == Inclination.Hostile)
+                {
+                    hostiles.Add(n);
+                }
+            }
+        }
+        else if(inclination == Inclination.Hostile)
+        {
+            hostiles.Add(FindObjectOfType<Player>());
+        }
+
+        closestHostile = GetClosestHostile();
+
+        if (closestHostile)
+        {
+            gameObject.GetComponent<AIDestinationSetter>().target = closestHostile.transform;
+        }
     }
 
     public void RemoveFromHostiles(DynamicCharacter g)

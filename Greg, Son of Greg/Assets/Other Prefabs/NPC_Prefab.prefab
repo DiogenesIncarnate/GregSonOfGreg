@@ -47,8 +47,9 @@ GameObject:
   - component: {fileID: 753482794090962057}
   - component: {fileID: 3779535517955038685}
   - component: {fileID: 4101765735134702224}
+  - component: {fileID: -2560837252595266439}
   m_Layer: 11
-  m_Name: EnemyPrefab
+  m_Name: NPC_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83,10 +84,12 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -94,6 +97,7 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -165,6 +169,7 @@ MonoBehaviour:
   verticalRaySpacing: 0
   collider: {fileID: 0}
   playerInput: {x: 0, y: 0}
+  canClimbLedge: 0
 --- !u!95 &8513290727859932769
 Animator:
   serializedVersion: 3
@@ -209,11 +214,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   currentHPDisplay: {fileID: 0}
-  defaultHostile: 1
+  defaultHostile: 0
   hostiles: []
   closestHostile: {fileID: 0}
   awarenessRadius: 10
-  inclination: 2
+  inclination: 1
+  parentChunk: {fileID: 0}
+  origin: {fileID: 0}
 --- !u!114 &753482794090962057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,3 +299,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 4417376621416568543, guid: da14e5ea7ab0abf4daeeae30c50ea300, type: 3}
+--- !u!114 &-2560837252595266439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8513290727859932770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 0
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 1
+  m_ApplyToSortingLayers: 2de2b31300000000
+  m_ShapePath:
+  - {x: -0.375, y: -0.375, z: 0}
+  - {x: 0.375, y: -0.375, z: 0}
+  - {x: 0.375, y: 0.375, z: 0}
+  - {x: -0.375, y: 0.375, z: 0}
+  m_ShapePathHash: 0
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -17020

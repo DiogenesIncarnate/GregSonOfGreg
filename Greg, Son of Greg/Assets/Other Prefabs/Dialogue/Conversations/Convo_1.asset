@@ -26,9 +26,11 @@ MonoBehaviour:
     - Hello! How convenient to meet a friendly soul.
     - I desire only victory. Die, scum!
     - I wish to be on my way.
-    threatLevels: 000000000100000002000000
+    threatLevels: 020000000000000001000000
   - speaker: {fileID: 11400000, guid: 9dc8c3f7ba3ad374e8df22e86a4e1e33, type: 2}
     dialogueType: 1
     dialogueOptions:
+    - Well, I hope to see you again.
+    - Ugh. Another one of THOSE guys. We should kill him.
     - You are quite the strange traveler...
     threatLevels: 
